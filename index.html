@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap" rel="stylesheet">
+    <title>project 3</title>
+</head>
+<body style="overflow-x: hidden;">
+        <nav class="navbar navbar-expand-md bg-white fixed-top">
+            <div class="container-fluid">
+                <img src="img/2.jpg" class="rounded-pill" style="width: 50px;" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="javascript:void(0)">Home</a>
+
+                  </li>
+                  <div class="btn-group">
+                    <div class="btn-group">
+                      <button type="button" style="border: none;" class="btn dropdown-toggle" data-bs-toggle="dropdown">Servises</button>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#mm">Html</a>
+                        <a class="dropdown-item" href="#css">Css</a>
+                        <a class="dropdown-item" href="#js">JavaScript</a>
+                    </div>
+                    </div>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="javascript:void(0)">Contact </a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="javascript:void(0)">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search here">
+                    <button type="button" class="btn btn-outline-dark ">Search</button>
+                    <button type="button" class="btn btn-outline-dark"style="margin-left: 5px;">Login</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      
+    <!--Carousel--> 
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+      <!-- The slideshow/carousel -->
+    <div id="ee" class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://islam28497.github.io/Template_3_Bootstrap/pictures/1.webp"  class="d-block" style="width:100%">
+        <div class="carousel-caption">
+            <h1>Html</h1>
+            <br>
+            <a href class="btn btn-danger" target="_blank">View this course</a>
+            <br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://islam28497.github.io/Template_3_Bootstrap/pictures/2.jpg" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+            <h1>Css</h1>
+            <br>
+            <a href class="btn btn-danger" target="_blank">View this course</a>
+            <br>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://islam28497.github.io/Template_3_Bootstrap/pictures/3.jpg" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+            <h1>Java Script</h1>
+            <br>
+            <a href class="btn btn-danger" target="_blank">View this course</a>
+            <br>
+        </div>
+      </div>
+    </div>
+      <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button  class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  <div id="wel" class="mt-4 p-5 bg-dark text-white rounded">
+    <h1>Welcome</h1>
+    <p>We can start now... </p>
+    <a href="#" class="btn btn-primary mt-3">learn more</a>
+  </div>
+  <hr>
+  <h1 id="h1" class="text-center text-light bg-secondary p-3 m-0" id="mm">Programming Language</h1>
+
+
+
+  <div id="accordion">
+
+    <div class="card">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+          Html
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+            HyperText Markup Language (HTML) is the basic scripting language used by web browsers to render pages on the world wide web. HyperText allows a user to click a link and be redirected to a new page referenced by that link.
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+          Css
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+            Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+          JavaScript
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+            JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <hr>
+
+  <h1 class="text-center text-light bg-secondary p-3 m-0" id="css">Html is very easy</h1>
+
+  <div class="mt-4 p-5 bg-dark text-white rounded">
+    <h2>try the code below from <a href="#">here</a></h2>
+    <p> < p> Lorem, Lorem ipsum dolor sit. < /p></p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="copy to clib board">copy</button>
+  </div>
+  <hr>
+    <br>
+  <h1 class="text-center text-light bg-secondary p-3 m-0" id="js">Css is very easy</h1>
+
+  <div class="mt-4 p-5 bg-dark text-white rounded">
+    <h2>try the code below from <a href="#">here</a></h2>
+    <p> .h1{
+        margin-top:30px; 
+        backgroung-color:red;};
+    </p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="copy to clib board">copy</button>
+  </div>
+  <hr>
+
+    <br>
+  <h1 class="text-center text-light bg-secondary p-3 m-0" >Javascript is very easy</h1>
+
+  <div class="mt-4 p-5 bg-dark text-white rounded">
+    <h2>try the code below from <a href="#">here</a></h2>
+    <p> console.log("Welcome to Programming!");</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="copy to clib board">copy</button>
+  </div>
+
+  <div class="fixedimg fixedimg1" style="background-image: url(img/33333.png) ; background-attachment:fixed ; background-size: cover; height: 300px; width: 100%;"></div>
+
+  <br>
+  <h1 class="text-center text-light bg-secondary p-3 m-0" id="mm">Good Basic</h1>
+<br>
+
+<div class="cards">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 mb-md-2 mt-3">
+        <div class="card bg-dark" style="width: 100%;text-align: center; color: white;">
+          <img class="card-img-top" src="img/HTML.png" alt="Card image" style="width:100%;height: 350px;">
+          <div class="card-body">
+            <h5 class="card-title">Html</h5>
+            <p class="card-text">Html is very easy.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 mb-md-2 mt-3">
+        <div class="card bg-dark" style="width: 100%;text-align: center; color: white;">
+          <img class="card-img-top" src="img/css.png" alt="Card image" style="width:100%;margin: auto; height: 350px;">
+          <div class="card-body">
+            <h5 class="card-title">Css</h5>
+            <p class="card-text">Css is very easy.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12 mb-md-2 mt-3">
+        <div class="card bg-dark" style="width: 100%;text-align: center; color: white;">
+          <img class="card-img-top" src="img/JS.png" alt="Card image" style="width:100%;margin: auto; height: 350px;">
+          <div class="card-body">
+            <h5 class="card-title">Java Script</h5>
+            <p class="card-text">Java Script is very easy.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <br>
+  <hr>
+<div class="fixedimg fixedimg1" style="background-image: url(img/header.jpg) ; background-attachment:fixed ; background-size: cover; height: 300px; width: 100%;"></div>
+
+  <br>
+
+  <h1 class="text-center text-light bg-secondary p-3 m-0" id="css">Thanks For </h1>
+  <br>
+<div class="row justify-content-sm-center justify-content-lg-around ">
+  <div class="card col-lg-4 col-sm-12 mt-3" style="width:400px; height: 650px;">
+    <img class="card-img-top" src="img/me.jpg" alt="Card image" style="width:399px; height: 450px;margin-left: -12px;">
+    <div class="card-body">
+      <h4 class="card-title">Mostafa Saad </h4>
+      <p class="card-text">Head Technical on Engineers Company / <br> Web Developer On Rbekia (Startup Company). <br><br></p>
+      <a style="margin-top: 5px;" href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  <br>
+  <div class="card col-lg-4 col-sm-12 mt-sm-3" style="width:400px; height: 650px;">
+    <img class="card-img-top" src="img/farha.jpg" alt="Card image" style="width:399px; height: 450px;margin-left: -12px;">
+    <div class="card-body">
+      <h4 class="card-title">Farha Khaled </h4>
+      <p class="card-text" style="height: 120px;">Backend Developer /  <br> Content Writing On Engineers Company. </p>
+      <a style="margin-top: -80px;" href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  <br>
+  <div class="card col-lg-4 mt-sm-3" style="width:400px; height: 650px; ">
+    <img class="card-img-top" src="img/WhatsApp Image 2022-12-16 at 22.39.10.jpg" alt="Card image" style="width:399px; height: 450px;margin-left: -12px;">
+    <div class="card-body">
+      <h4 class="card-title">Ahmed Ali </h4>
+      <p class="card-text"style="height: 120px">Uiux Designer / <br> Ceo On Rbekia (Startup Company). </p>
+      <a style="margin-top: -80px;" href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+
+  
+
+</div>
+
+<br>
+
+<h1 class="text-center text-light bg-secondary p-3 m-0" >Join Us </h1>
+<br><br><br><br><br>
+
+<div style="display: flex; justify-content: space-around;">
+  <div class="card" style="width:200px; height: 200px; background-color: rgb(69, 67, 67);">
+    <h3 style="font-family: 'Gentium Book Plus', serif; color: aliceblue; margin: auto;">Follow Me..</h3>
+    <i class="fa-brands fa-facebook" style="color:white; margin: auto; font-size: 30px;"></i>
+    <a href="#" style="margin:auto;">Go to link</a>
+  </div>
+
+  <div class="card" style="width:200px; height: 200px; background-color: rgb(69, 67, 67);">
+    <h3 style="font-family: 'Gentium Book Plus', serif; color: aliceblue; margin: auto;">Subscribe Now</h3>
+    <i class="fa-brands fa-instagram" style="color:white; margin: auto; font-size: 30px;"></i>
+    <a href="#" style="margin:auto;">Go to link</a>
+  </div>
+
+  <div class="card" style="width:200px; height: 200px; background-color: rgb(69, 67, 67);">
+    <h3 style="font-family: 'Gentium Book Plus', serif; color: aliceblue; margin: auto;">Like the page</h3>
+    <i class="fa-brands fa-twitter" style="color:white; margin: auto; font-size: 30px;"></i>
+    <a href="#" style="margin:auto;">Go to link</a>
+  </div>
+
+  <div class="card" style="width:200px; height: 200px; background-color: rgb(69, 67, 67);">
+    <h3 style="font-family: 'Gentium Book Plus', serif; color: aliceblue; margin: auto;">watch vedios</h3>
+    <i class="fa-solid fa-video" style="color:white; margin: auto; font-size: 30px;"></i>
+    <a href="#" style="margin:auto;">Go to link</a>
+  </div>
+</div> 
+<br><br><br><br>
+
+<div class="footer-top bg-sm-rgb(69, 67, 67)" style="background-color: rgb(69, 67, 67);">
+  <div class="container">
+    <div class="row justify-content-sm-center justify-content-lg-between">
+      <div class="col-lg-2 col-md-6 footer-contact " style="width: 300px;margin-top: 20px;">
+        <h4 style="color: aliceblue;">
+          <hr style="color:rgb(255, 255, 255); margin-top: 10px;">
+          <i style="color: aliceblue;margin-left: 20px;" class="fa-brands fa-facebook"></i>
+          Good Company
+          
+          <hr style="color:rgb(255, 255, 255); margin-top: 20px;">
+        </h4>
+        <p style="color: rgb(255, 255, 255);">
+          <strong style="color: aliceblue;">Phone:</strong> +20 1152510943</p>
+        <p style="color: aliceblue;"><strong style="color: aliceblue;">Email: </strong> mostafa06@gmail.com</p><strong
+          style="color: aliceblue;">Fax :</strong><span style="color: aliceblue;">+040 4670060</span>
+      </div>
+      <div class="col-lg-2 col-md-6 footer-link" style="width: 300px; margin-top: 20px; ">
+        
+        <h4 style="color: aliceblue;">
+          <hr style="color:rgb(255, 255, 255); margin-top: 10px;">
+          <i style="color: aliceblue;margin-left: 20px;" class="fa-brands fa-facebook"></i>
+          Important links
+          
+          <hr style="color:rgb(255, 255, 255); margin-top: 20px;">
+        </h4>
+        <ul style="list-style-type: none;">
+          <li><a style="margin-left: 25%;" href="#">Visit Us</a></li><br>
+          <li> <a href="#" style="margin-left: 20%;"> Take Alook</a></li><br>
+          <li> <a href="#" style="margin-left: 0%;">Your health is more important</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-lg-2 col-md-6 footer-link" style="width: 300px;  ">
+        <br>
+        <h4 style="color: aliceblue;">
+          <hr style="color:rgb(255, 255, 255); margin-top: 8px;">
+          <i style="color: aliceblue;margin-left: 25%;" class="fa-brands fa-facebook"></i>
+          Vision
+          
+          <hr style="color:rgb(255, 255, 255); margin-top: 17px;">
+        </h4>
+        <ul style="list-style-type: none;">
+          <li><p style="text-align: center;color: aliceblue;margin-left: -15px;">That's aspirational, short and to the point.</p></li>
+          <li> <p style="text-align: center;color: aliceblue;margin-left: -15px;">it sets the tone for the company and makes it clear. </p></li>
+          <li> <p style="text-align: center;color: aliceblue;margin-left: -15px;">they're in the market to offer good.</p></li>
+        </ul>
+      </div>
+      <br><br>
+      <div class="col-lg-3 col-md-6 footer-links" style="width: 300px;">
+        <br>
+        <h4 style="color: aliceblue;margin-top: 10px;">
+          <hr style="color:rgb(255, 255, 255); margin-top: 4px;margin-left: -20px;">
+          <i style="color: aliceblue; margin-left: 25%;" class="fa-brands fa-facebook"></i>
+          Services
+          <br><br>
+          <hr style="color:rgb(255, 255, 255); margin-top: -14px;margin-left: -20px;">
+        </h4>
+        <p style="color: aliceblue;margin-left: 25%;">Serveices for all.</p>
+        <p style="color: aliceblue;margin-left: 20%;">Provide best serveices.</p>
+        <p style="color: aliceblue;margin-left: 12%;">you will be better than before.</p>
+        <div class="social-links mt-3"> <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a href="#"
+            class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i
+              class="bx bxl-instagram"></i></a> <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> <a
+            href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <p style="color: aliceblue;text-align: center;margin-top: 65px;">Copyright © 2023 By Mostafa Saad <i
+      class="fa-solid fa-heart"></i> , Engineers. All rights.</p>
+  <br>
+
+</div>
+</body>
+</html>
